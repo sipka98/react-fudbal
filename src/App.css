@@ -1,0 +1,6 @@
+.list-group .list-group-item:hover {
+  background-color: #c7dbd2;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #c7dbd2;
+}
