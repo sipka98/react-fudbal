@@ -4,14 +4,13 @@ import podaci from "../podaci/podaciOTimovima.js";
 
 const Timovi = () => {
     return (
-        <>
-
+        <div className='kontejner'>
             <Container>
-                <h1>Svi timovi ove sezone</h1>
-                <Table hover>
+                <h1>Svi timovi 2020/21 sezone</h1>
+                <Table hover className="content-table">
                     <thead>
                     <tr>
-                        <th>#</th>
+                        <th>Rb</th>
                         <th>Naziv tima</th>
                         <th>Skracenica</th>
                         <th>Zemlja</th>
@@ -32,14 +31,10 @@ const Timovi = () => {
                             )
                         })
                     }
-
                     </tbody>
-
                 </Table>
             </Container>
-
-
-        </>
+        </div>
     );
 };
 

@@ -1,6 +1,25 @@
 .list-group .list-group-item:hover {
   background-color: #c7dbd2;
+  color: aquamarine;
 }
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-color: #c7dbd2;
+  color: aquamarine;
 }
+.table tbody tr{
+  background-color: greenyellow;
+}
+.kontejner {
+  background-size: cover;
+  background-image: url(https://fototapetebg.com/wp-content/uploads/2020/07/stadion-sajt43.jpg);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.labela{
+  color: white;
+}
+

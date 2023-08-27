@@ -33,14 +33,14 @@ const Pregled = () => {
 
 
     return (
-        <>
+        <div className='kontejner'>
             <Container>
                 <Row className="mt-3">
                     <Col>
                         <h1>Unesi rezultat</h1>
                         <Form>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Label>Domacin</Form.Label>
+                                <Form.Label className='labela'>Domacin</Form.Label>
                                 <Form.Select ref={domacinRef} aria-label="Domacin">
                                     {
                                         podaci.map((tim, index) => {
@@ -53,7 +53,7 @@ const Pregled = () => {
                             </Form.Group>
 
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Label>Gost</Form.Label>
+                                <Form.Label className='labela'>Gost</Form.Label>
                                 <Form.Select ref={gostRef} aria-label="Gost">
                                     {
                                         podaci.map((tim, index) => {
@@ -65,11 +65,11 @@ const Pregled = () => {
                                 </Form.Select>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Label>Domacin golova</Form.Label>
+                                <Form.Label className='labela'>Domacin golova</Form.Label>
                                 <Form.Control ref={domGolovaRef} type="number" placeholder="Domacin golova" />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
-                                <Form.Label>Gost golova</Form.Label>
+                                <Form.Label className='labela'>Gost golova</Form.Label>
                                 <Form.Control ref={gostGolovaRef} type="number" placeholder="Gost golova" />
                             </Form.Group>
                         </Form>
@@ -86,7 +86,7 @@ const Pregled = () => {
                     </Col>
                 </Row>
             </Container>
-        </>
+        </div>
     );
 };
 
